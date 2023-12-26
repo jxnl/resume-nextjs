@@ -1,278 +1,196 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
+
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Jason Liu",
+  initials: "jxnl",
+  location: "New York",
+  locationLink: "https://www.google.com/maps/place/New+York",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Experienced Data Scientist and Machine Learning Engineer with a demonstrated history of working in various tech industries. Skilled in AI strategy, implementation, and infrastructure.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I have over 8 years of experience in data science and machine learning, working with companies like Stitchfix, Facebook, NYU, ActionIQ, Meltwater, Kojo, and helping other startups.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/jxnl?v=4",
+  personalWebsiteUrl: "https://jxnl.co",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "jason@jxnl.co",
+    tel: "4156106247",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/jxnl",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/jxnl/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/jxnl",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Waterloo",
+      degree: "B.Math. Computational Mathematics and Statistics",
+      start: "2012",
+      end: "2017",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "567",
+      link: "#",
+      badges: ["Consulting", "Applied AI"],
+      title: "Consultant",
+      logo: "", // Add logo if available
+      start: "2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Working with seed stage companies, helping founders with AI strategy, implementation, and infrastructure.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "South Park Commons",
+      link: "https://www.southparkcommons.com/",
+      badges: ["Sabatical"],
+      title: "Member",
+      logo: "", // Add logo if available
+      start: "2023",
+      end: "Present",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Exploring LLM tooling around structured extraction and self-hosting. Launched Youtube University and developing Journal, an AI-powered journaling application.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "Stitchfix",
+      link: "https://www.jxnl.co/writing/flight-at-stitchfix",
+      badges: ["ML Engineering"],
+      title: "Staff ML Engineer",
+      logo: "", // Add logo if available
+      start: "2018",
+      end: "2023",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Integrated OpenAI's LLMs into Stitchfix's stylist workflow, led computer vision research, developed a product similarity search system, and designed Flight, a recommendation framework.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "Facebook",
+      link: "#",
+      badges: ["Data Science"],
+      title: "Data Scientist",
+      logo: "", // Add logo if available
+      start: "2017",
+      end: "2017",
+      description:
+        "Created algorithms for identifying harmful content and developed dashboards to detect malicious activities.",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Data Science",
+    "Machine Learning",
+    "Computer Vision",
+    "Recommendation Systems",
+    "Developer Tools",
+    "Pytorch",
+    "Model Training"
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "Naro",
+      techStack: ["Applied AI Consultancy"],
+      description: "Consultancy work for Naro.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "narohq.com",
+        href: "http://narohq.com",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+      title: "Trunktools",
+      techStack: ["Applied AI Consultancy"],
+      description: "Consultancy work for Trunktools.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "trunktools.com",
+        href: "https://trunktools.com/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+      title: "Modal",
+      techStack: ["Applied AI Consultancy"],
+      description: "Consultancy work for Modal.",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "modal.com",
+        href: "http://modal.com",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+      title: "Pydantic",
+      techStack: ["Applied AI Consultancy"],
+      description: "Consultancy work for Pydantic.",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "pydantic.dev",
+        href: "http://pydantic.dev",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+      title: "Wandb",
+      techStack: ["Applied AI Consultancy"],
+      description: "Consultancy work for Wandb.",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "wandb.ai",
+        href: "https://wandb.ai/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Kay.ai",
+      techStack: ["Applied AI Consultancy"],
+      description: "Consultancy work for Kay.ai.",
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "Kay.ai",
+        href: "http://Kay.ai",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      title: "New.Computer",
+      techStack: ["Applied AI Consultancy"],
+      description: "Consultancy work for New.Computer.",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "new.computer",
+        href: "http://new.computer",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Instructor",
+      techStack: ["Web Application", "LLMs"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Creator of Instructor, an innovative tool for structured extraction and self-hosting, with approximately 2.3k stars.",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "Instructor",
+        href: "https://jxnl.github.io/instructor/",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Youtube Chapters",
+      techStack: ["Web Application"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "Developer of Youtube Chapters, a platform for creating interactive and dynamic video chapters.",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "Youtube Chapters",
+        href: "https://youtubechapters.app",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Journal",
+      techStack: ["Web Application", "AI", "Journaling"],
       description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+        "Developed Journal, an AI-powered journaling application with long-term memory and semantic search, achieving around 6k Monthly Active Users (MAU).",
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "Journal",
+        href: "http://usejournal.xyz",
       },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
