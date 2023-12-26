@@ -25,12 +25,12 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/jxnl/",
+        url: "https://www.linkedin.com/in/jxnlco/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/jxnl",
+        url: "https://x.com/jxnlco",
         icon: XIcon,
       },
     ],
@@ -46,8 +46,8 @@ export const RESUME_DATA = {
   work: [
     {
       company: "567",
-      link: "#",
-      badges: ["Consulting", "Applied AI"],
+      link: "https://jxnl.co",
+      badges: ["Applied AI"],
       title: "Consultant",
       logo: "", // Add logo if available
       start: "2023",
@@ -58,7 +58,7 @@ export const RESUME_DATA = {
     {
       company: "South Park Commons",
       link: "https://www.southparkcommons.com/",
-      badges: ["Sabatical"],
+      badges: ["Sabbatical"],
       title: "Member",
       logo: "", // Add logo if available
       start: "2023",
