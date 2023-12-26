@@ -9,10 +9,10 @@ export const RESUME_DATA = {
   location: "New York",
   locationLink: "https://www.google.com/maps/place/New+York",
   about:
-    "Experienced Data Scientist and Machine Learning Engineer with a demonstrated history of working in various tech industries. Skilled in AI strategy, implementation, and infrastructure.",
+    "Experienced Data Scientist and Machine Learning Engineer with a demonstrated history of working in various tech industries.",
   summary:
     "I have over 8 years of experience in data science and machine learning, working with companies like Stitchfix, Facebook, NYU, ActionIQ, Meltwater, Kojo, and helping other startups.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/jxnl?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
   personalWebsiteUrl: "https://jxnl.co",
   contact: {
     email: "jason@jxnl.co",
