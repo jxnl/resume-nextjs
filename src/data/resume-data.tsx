@@ -1,4 +1,3 @@
-
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
@@ -9,9 +8,9 @@ export const RESUME_DATA = {
   location: "New York",
   locationLink: "https://www.google.com/maps/place/New+York",
   about:
-    "Experienced Data Scientist and Machine Learning Engineer with a demonstrated history of working in various tech industries.",
+    "Experienced Data Scientist and Machine Learning Engineer w/ experience in recommendation systems, applied ai, and developer tools.",
   summary:
-    "I have over 8 years of experience in data science and machine learning, working with companies like Stitchfix, Facebook, NYU, ActionIQ, Meltwater, Kojo, and helping other startups.",
+    "Currently on my sabbatical at South Park Commons while consulting and advising startups in the infrastructure, applied ai, and personal computing. Obsessed with finding the right abstractions and finding great tools that enable others to build.",
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
   personalWebsiteUrl: "https://jxnl.co",
   contact: {
@@ -48,12 +47,12 @@ export const RESUME_DATA = {
       company: "567",
       link: "https://jxnl.co",
       badges: ["Applied AI"],
-      title: "Consultant",
+      title: "Owner / Consultant",
       logo: "", // Add logo if available
       start: "2023",
       end: "Present",
       description:
-        "Working with seed stage companies, helping founders with AI strategy, implementation, and infrastructure.",
+        "Working with seed stage companies, helping founders with tech strategy, research, and infrastructure.",
     },
     {
       company: "South Park Commons",
@@ -96,58 +95,131 @@ export const RESUME_DATA = {
     "Recommendation Systems",
     "Developer Tools",
     "Pytorch",
-    "Model Training"
+    "Model Training",
   ],
   projects: [
     {
-      title: "Naro",
-      techStack: ["Applied AI Consultancy"],
-      description: "Consultancy work for Naro.",
+      title: "Instructor",
+      techStack: ["python", "llms", "structured extraction"],
+      description: "Creator, tool for structured extraction and self-hosting",
+      link: {
+        label: "Instructor",
+        href: "https://jxnl.github.io/instructor/",
+      },
+    },
+    {
+      title: "Journal",
+      techStack: ["typescript", "prompt engineering"],
+      description:
+        "AI-powered journaling application with long-term memory and semantic search.",
+      link: {
+        label: "Journal",
+        href: "http://usejournal.xyz",
+      },
+    },
+    {
+      title: "LLMs @ Stitchfix",
+      techStack: ["LLMs", "Prompt Engineering"],
+      description:
+        "Researched integrating LLMs into Stitchfix's stylist workflow, significantly improving efficiency and the quality of stylist recommendations.",
+      link: {
+        label: "Learn more about Stitchfix",
+        href: "https://www.stitchfix.com",
+      },
+    },
+    {
+      title: "Computer Vision @ Stitchfix",
+      techStack: ["Computer Vision", "Dataset Creation"],
+      description:
+        "Led a computer vision research, classification, embeddings, object detection to improve embedding coldstarts.",
+      link: {
+        label: "Explore Stitchfix's Technology",
+        href: "https://www.stitchfix.com/technology",
+      },
+    },
+
+    {
+      title: "Multimodal Embeddings @ Stitchfix",
+      techStack: ["pytorch", "representation learning", "search"],
+      description:
+        "Developed a product similarity search system using multi-modal embeddings (Image, Text, Ratings), leading to an increase in annual revenue by over $50 million.",
+      link: {
+        label: "Stylist Shuffle",
+        href: "https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/",
+      },
+    },
+
+    {
+      title: "Recommendation Framework @ Stitchfix",
+      techStack: ["devops", "python", "orchestration", "observability"],
+      description:
+        "Designed and implemented Flight, a recommendation framework that improved system reliability and scalability, handling over 350 million requests daily.",
+      link: {
+        label: "Learn more about Flight at Stitchfix",
+        href: "https://www.jxnl.co/writing/flight-at-stitchfix",
+      },
+    },
+    {
+      title: "Consulting @ Naro",
+      techStack: ["python", "prompt engineering", "sales"],
+      description: "Copilot for B2B Sales Teams",
       link: {
         label: "narohq.com",
         href: "http://narohq.com",
       },
     },
     {
-      title: "Trunktools",
-      techStack: ["Applied AI Consultancy"],
-      description: "Consultancy work for Trunktools.",
+      title: "Consulting @ Trunk Tools",
+      techStack: [
+        "AI Construction Technology",
+        "Project Management",
+        "Construction Efficiency",
+      ],
+      description:
+        "Trunk Tools addresses the skilled labor shortage in construction, enhancing workforce productivity through AI-based project management tools like TrunkPerform and TrunkText.",
       link: {
         label: "trunktools.com",
         href: "https://trunktools.com/",
       },
     },
     {
-      title: "Modal",
-      techStack: ["Applied AI Consultancy"],
-      description: "Consultancy work for Modal.",
+      title: "Writer @ Modal",
+      techStack: ["technical writing", "python"],
+      description:
+        "Modal specializes in cloud functions, offering a platform for running generative AI models, large-scale batch jobs, and more. It enables easy code execution on hundreds of GPUs, streamlining the process for data teams.",
       link: {
         label: "modal.com",
-        href: "http://modal.com",
+        href: "https://modal.com/",
       },
     },
     {
-      title: "Pydantic",
-      techStack: ["Applied AI Consultancy"],
-      description: "Consultancy work for Pydantic.",
+      title: "Writer @ Pydantic",
+      techStack: ["technical writing", "python"],
+      description:
+        "Pydantic provides data validation and settings management using Python type annotations, enforcing type hints at runtime with user-friendly error handling.",
       link: {
         label: "pydantic.dev",
         href: "http://pydantic.dev",
       },
     },
     {
-      title: "Wandb",
-      techStack: ["Applied AI Consultancy"],
-      description: "Consultancy work for Wandb.",
+      title: "Writer @ Wandb",
+      techStack: [
+        "education",
+        "machine learning",
+      ],
+      description:
+        "Wandb (Weights & Biases) provides a platform for tracking machine learning experiments, offering tools for visualization, comparison, and collaboration in ML projects.",
       link: {
         label: "wandb.ai",
         href: "https://wandb.ai/",
       },
     },
     {
-      title: "Kay.ai",
-      techStack: ["Applied AI Consultancy"],
-      description: "Consultancy work for Kay.ai.",
+      title: "Consultant @ Kay.ai",
+      techStack: ["retrival", "evals", "infrastucture", "python"],
+      description:
+        "Retrieve relevant context from the semantic web for your LLM apps with fully hosted embeddings.Kay.ai leverages  for advanced data analysis and machine learning services, turning complex data into actionable insights.",
       link: {
         label: "Kay.ai",
         href: "http://Kay.ai",
@@ -155,41 +227,12 @@ export const RESUME_DATA = {
     },
     {
       title: "New.Computer",
-      techStack: ["Applied AI Consultancy"],
-      description: "Consultancy work for New.Computer.",
+      techStack: ["personal computing", "python"],
+      description:
+        "Dot by New Computer is an intelligent guide designed to help you remember, organize, and navigate your life.New.Computer focuses on innovative computing solutions, providing advanced technology services and infrastructure work for technological progress.",
       link: {
         label: "new.computer",
         href: "http://new.computer",
-      },
-    },
-    {
-      title: "Instructor",
-      techStack: ["Web Application", "LLMs"],
-      description:
-        "Creator of Instructor, an innovative tool for structured extraction and self-hosting, with approximately 2.3k stars.",
-      link: {
-        label: "Instructor",
-        href: "https://jxnl.github.io/instructor/",
-      },
-    },
-    {
-      title: "Youtube Chapters",
-      techStack: ["Web Application"],
-      description:
-        "Developer of Youtube Chapters, a platform for creating interactive and dynamic video chapters.",
-      link: {
-        label: "Youtube Chapters",
-        href: "https://youtubechapters.app",
-      },
-    },
-    {
-      title: "Journal",
-      techStack: ["Web Application", "AI", "Journaling"],
-      description:
-        "Developed Journal, an AI-powered journaling application with long-term memory and semantic search, achieving around 6k Monthly Active Users (MAU).",
-      link: {
-        label: "Journal",
-        href: "http://usejournal.xyz",
       },
     },
   ],
