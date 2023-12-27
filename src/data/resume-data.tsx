@@ -8,9 +8,9 @@ export const RESUME_DATA = {
   location: "New York",
   locationLink: "https://www.google.com/maps/place/New+York",
   about:
-    "Experienced Data Scientist and Machine Learning Engineer w/ experience in recommendation systems, machine learning, and python tooling.",
+    "Cycling my time between artist and tinkerer. Currently I’m obsessed with finding the right abstractions and patterns to work with large language models.",
   summary:
-    "I am currently on sabbatical at South Park Commons, where I consult and advise startups in infrastructure, applied AI, and personal computing. I am obsessed with finding the right abstractions and discovering excellent tools that empower others to build.",
+    "I am currently on sabbatical at South Park Commons, where I consult and advise startups in infrastructure, applied AI, and personal computing.",
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
   personalWebsiteUrl: "https://jxnl.co",
   contact: {
@@ -78,30 +78,16 @@ export const RESUME_DATA = {
           <li>
             Designed Flight framework, improving reliability, scalability,
             adopted by over 80% of organization, servicing 350 million daily
-            requests. ref:{" "}
-            <a href="https://newsroom.stitchfix.com/blog/your-shop-is-getting-an-update-shop-by-category-will-make-it-easier-to-discover-things-youll-love/">
-              [1]
-            </a>
-            <a href="https:jxnl.co/writing/flight-at-stitchfix">[2]</a>
-            <a href="https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/">
-              [3]
-            </a>
+            requests.{" "}
+            <a href="https://newsroom.stitchfix.com/blog/your-shop-is-getting-an-update-shop-by-category-will-make-it-easier-to-discover-things-youll-love/">[1]</a>
+          </li>
+          <li>
+            Led vision research, managed data acquisition, fine-tuned models, developed
+            300,000+ outfit dataset to power new Stitch Fix outfit recommender. 
           </li>
           <li>
             Developed product similarity search with multi-modal embeddings,
-            boosting revenue by over $50 million annually. ref:{" "}
-            <a href="https://newsroom.stitchfix.com/blog/how-we-understand-your-personal-style/">
-              [1]
-            </a>
-          </li>
-          <li>
-            Led vision research, managed data acquisition, fine-tuned models,
-            developed 300,000+ outfit dataset to power new Stitch Fix outfit
-            recommender.
-          </li>
-          <li>
-            Experimented with OpenAI LLMs into Stitchfix stylist workflow to
-            enhance efficiency and quality.
+            boosting revenue by over $50 million annually. <a href="https://newsroom.stitchfix.com/blog/how-we-understand-your-personal-style/">[2]</a>
           </li>
         </>
       ),
@@ -109,7 +95,7 @@ export const RESUME_DATA = {
     {
       company: "Facebook",
       link: "https://about.meta.com/actions/promoting-safety-and-expression/",
-      badges: ["Data Science"],
+      badges: ["Data Science", "Internship"],
       title: "Data Scientist",
       logo: "",
       start: "2017",
@@ -195,7 +181,11 @@ export const RESUME_DATA = {
     },
     {
       title: "Trunk Tools",
-      techStack: ["construction", "technical advisor", "retrival"],
+      techStack: [
+        "construction",
+        "technical advisor",
+        "retrival",
+      ],
       description:
         "Trunk Tools addresses the skilled labor shortage in construction, enhancing workforce productivity through AI-based tools.",
       link: {
@@ -225,7 +215,11 @@ export const RESUME_DATA = {
     },
     {
       title: "Weight & Biases",
-      techStack: ["technical writing", "education", "machine learning"],
+      techStack: [
+        "technical writing",
+        "education",
+        "machine learning",
+      ],
       description:
         "Wandb (Weights & Biases) provides a platform for tracking machine learning experiments, offering tools for visualization, comparison, and collaboration in ML projects.",
       link: {
@@ -243,9 +237,15 @@ export const RESUME_DATA = {
         href: "http://new.computer",
       },
     },
+
     {
       title: "Kay.ai",
-      techStack: ["retrieval", "evals", "infrastucture", "python"],
+      techStack: [
+        "retrieval",
+        "evals",
+        "infrastucture",
+        "python",
+      ],
       description:
         "Retrieve relevant context from the semantic web for your LLM apps with fully hosted embeddings.",
       link: {
