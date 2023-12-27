@@ -8,9 +8,9 @@ export const RESUME_DATA = {
   location: "New York",
   locationLink: "https://www.google.com/maps/place/New+York",
   about:
-    "Experienced Data Scientist and Machine Learning Engineer w/ experience in recommendation systems, applied ai, and developer tools.",
+    "Experienced Data Scientist and Machine Learning Engineer w/ experience in recommendation systems, machine learning, and python tooling.",
   summary:
-    "Currently on my sabbatical at South Park Commons while consulting and advising startups in the infrastructure, applied ai, and personal computing. Obsessed with finding the right abstractions and finding great tools that enable others to build.",
+    "I am currently on sabbatical at South Park Commons, where I consult and advise startups in infrastructure, applied AI, and personal computing. I am obsessed with finding the right abstractions and discovering excellent tools that empower others to build.",
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
   personalWebsiteUrl: "https://jxnl.co",
   contact: {
@@ -78,24 +78,36 @@ export const RESUME_DATA = {
     },
     {
       company: "Facebook",
-      link: "#",
+      link: "https://about.meta.com/actions/promoting-safety-and-expression/",
       badges: ["Data Science"],
       title: "Data Scientist",
-      logo: "", // Add logo if available
+      logo: "",
       start: "2017",
       end: "2017",
       description:
         "Created algorithms for identifying harmful content and developed dashboards to detect malicious activities.",
     },
+    {
+      company: "New York University",
+      link: "https://www.nyu.edu/",
+      badges: ["Research"],
+      title: "Research Assistant",
+      start: "2015",
+      end: "2017",
+      description: "Under Rumi Chunara, centered around public health and social media.",
+      logo: "", // Path to NYU logo image
+    },
   ],
   skills: [
-    "Data Science",
-    "Machine Learning",
-    "Computer Vision",
-    "Recommendation Systems",
-    "Developer Tools",
+    "Python",
     "Pytorch",
-    "Model Training",
+    "LLMs",
+    "Prompt Engineering",
+    "Structured Extraction",
+    "Observability",
+    "Developer Tools",
+    "Machine Learning",
+    "Data Science",
   ],
   projects: [
     {
@@ -108,6 +120,25 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Multimodal Search",
+      techStack: ["Stitchfix", "pytorch", "representation learning", "search"],
+      description: "Lead computer vision research, and embedding search system using multi-modal embeddings (Image, Text, Ratings).",
+      link: {
+        label: "Stylist Shuffle",
+        href: "https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/",
+      },
+    },
+    {
+      title: "RecSys Framework",
+      techStack: ["devops", "python", "orchestration", "observability"],
+      description:
+        "Designed and implemented Flight, a recommendation framework that improved system reliability and scalability, handling over 350 million daily requests.",
+      link: {
+        label: "Learn more about Flight at Stitchfix",
+        href: "https://www.jxnl.co/writing/flight-at-stitchfix",
+      },
+    },
+    {
       title: "Journal",
       techStack: ["typescript", "prompt engineering"],
       description:
@@ -117,84 +148,45 @@ export const RESUME_DATA = {
         href: "http://usejournal.xyz",
       },
     },
+  ],
+  clients: [
     {
-      title: "LLMs @ Stitchfix",
-      techStack: ["LLMs", "Prompt Engineering"],
-      description:
-        "Researched integrating LLMs into Stitchfix's stylist workflow, significantly improving efficiency and the quality of stylist recommendations.",
-      link: {
-        label: "Learn more about Stitchfix",
-        href: "https://www.stitchfix.com",
-      },
-    },
-    {
-      title: "Computer Vision @ Stitchfix",
-      techStack: ["Computer Vision", "Dataset Creation"],
-      description:
-        "Led a computer vision research, classification, embeddings, object detection to improve embedding coldstarts.",
-      link: {
-        label: "Explore Stitchfix's Technology",
-        href: "https://www.stitchfix.com/technology",
-      },
-    },
-
-    {
-      title: "Multimodal Embeddings @ Stitchfix",
-      techStack: ["pytorch", "representation learning", "search"],
-      description:
-        "Developed a product similarity search system using multi-modal embeddings (Image, Text, Ratings), leading to an increase in annual revenue by over $50 million.",
-      link: {
-        label: "Stylist Shuffle",
-        href: "https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/",
-      },
-    },
-
-    {
-      title: "Recommendation Framework @ Stitchfix",
-      techStack: ["devops", "python", "orchestration", "observability"],
-      description:
-        "Designed and implemented Flight, a recommendation framework that improved system reliability and scalability, handling over 350 million requests daily.",
-      link: {
-        label: "Learn more about Flight at Stitchfix",
-        href: "https://www.jxnl.co/writing/flight-at-stitchfix",
-      },
-    },
-    {
-      title: "Consulting @ Naro",
-      techStack: ["python", "prompt engineering", "sales"],
-      description: "Copilot for B2B Sales Teams",
+      title: "Naro",
+      techStack: ["client work", "python", "prompt engineering", "sales"],
+      description: "Naro sits in the background, using contextual clues to proactively select the right content and messaging for each customer conversation, from emails to meetings.",
       link: {
         label: "narohq.com",
         href: "http://narohq.com",
       },
     },
     {
-      title: "Consulting @ Trunk Tools",
+      title: "Trunk Tools",
       techStack: [
-        "AI Construction Technology",
-        "Project Management",
-        "Construction Efficiency",
+        "client work",
+        "construction",
+        "technical advisor",
+        "retrival",
       ],
       description:
-        "Trunk Tools addresses the skilled labor shortage in construction, enhancing workforce productivity through AI-based project management tools like TrunkPerform and TrunkText.",
+        "Trunk Tools addresses the skilled labor shortage in construction, enhancing workforce productivity through AI-based tools.",
       link: {
         label: "trunktools.com",
         href: "https://trunktools.com/",
       },
     },
     {
-      title: "Writer @ Modal",
-      techStack: ["technical writing", "python"],
+      title: "Modal Labs",
+      techStack: ["client work", "technical writing", "python"],
       description:
-        "Modal specializes in cloud functions, offering a platform for running generative AI models, large-scale batch jobs, and more. It enables easy code execution on hundreds of GPUs, streamlining the process for data teams.",
+        "Modal specializes in cloud functions, offering a platform for running generative AI models, large-scale batch jobs, and more.",
       link: {
         label: "modal.com",
         href: "https://modal.com/",
       },
     },
     {
-      title: "Writer @ Pydantic",
-      techStack: ["technical writing", "python"],
+      title: "Pydantic",
+      techStack: ["client work", "technical writing", "python"],
       description:
         "Pydantic provides data validation and settings management using Python type annotations, enforcing type hints at runtime with user-friendly error handling.",
       link: {
@@ -203,8 +195,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Writer @ Wandb",
+      title: "Weight & Biases",
       techStack: [
+        "client work", 
+        "technical writing",
         "education",
         "machine learning",
       ],
@@ -216,20 +210,20 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Consultant @ Kay.ai",
-      techStack: ["retrival", "evals", "infrastucture", "python"],
+      title: "Kay.ai",
+      techStack: ["client work", "retrieval", "evals", "infrastucture", "python"],
       description:
-        "Retrieve relevant context from the semantic web for your LLM apps with fully hosted embeddings.Kay.ai leverages  for advanced data analysis and machine learning services, turning complex data into actionable insights.",
+        "Retrieve relevant context from the semantic web for your LLM apps with fully hosted embeddings.",
       link: {
         label: "Kay.ai",
         href: "http://Kay.ai",
       },
     },
     {
-      title: "New.Computer",
-      techStack: ["personal computing", "python"],
+      title: "New Computer",
+      techStack: ["client work", "personal computing", "python"],
       description:
-        "Dot by New Computer is an intelligent guide designed to help you remember, organize, and navigate your life.New.Computer focuses on innovative computing solutions, providing advanced technology services and infrastructure work for technological progress.",
+        "Dot by New Computer is an intelligent guide designed to help you remember, organize, and navigate your life.",
       link: {
         label: "new.computer",
         href: "http://new.computer",
