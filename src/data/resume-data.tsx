@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   summary:
     "I am currently on sabbatical at South Park Commons, where I consult and advise startups in infrastructure, applied AI, and personal computing.",
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
-  personalWebsiteUrl: "https://jxnl.co",
+  personalWebsiteUrl: "https://jxnl.notion.site/jxnl/whats-up-95708748a05d40c398a4abc66a978a8e",
   contact: {
     email: "jason@jxnl.co",
     tel: "4156106247",
