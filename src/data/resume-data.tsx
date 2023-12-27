@@ -67,7 +67,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Stitchfix",
-      link: "https://www.jxnl.co/writing/flight-at-stitchfix",
+      link: "https://www.stitchfix.com/",
       badges: ["ML Engineering", "Data Science", "Framework"],
       title: "Staff ML Engineer",
       logo: "", // Add logo if available
@@ -154,7 +154,7 @@ export const RESUME_DATA = {
         "Designed and implemented Flight, a recommendation framework that improved system reliability and scalability, handling over 350 million daily requests.",
       link: {
         label: "Learn more about Flight at Stitchfix",
-        href: "https://www.jxnl.co/writing/flight-at-stitchfix",
+        href: "https://jxnl.notion.site/Recommendations-with-Flight-at-Stitch-Fix-bf5de4e932b34af1ad912294236d81ba",
       },
     },
     {
