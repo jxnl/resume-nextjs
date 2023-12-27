@@ -46,7 +46,7 @@ export const RESUME_DATA = {
     {
       company: "567",
       link: "https://jxnl.co",
-      badges: ["Applied AI"],
+      badges: ["Consulting", "Technical Advisor"],
       title: "Owner / Consultant",
       logo: "", // Add logo if available
       start: "2023",
@@ -68,13 +68,43 @@ export const RESUME_DATA = {
     {
       company: "Stitchfix",
       link: "https://www.jxnl.co/writing/flight-at-stitchfix",
-      badges: ["ML Engineering"],
+      badges: ["ML Engineering", "Data Science", "Framework"],
       title: "Staff ML Engineer",
       logo: "", // Add logo if available
       start: "2018",
       end: "2023",
-      description:
-        "Integrated OpenAI's LLMs into Stitchfix's stylist workflow, led computer vision research, developed a product similarity search system, and designed Flight, a recommendation framework.",
+      description: (
+        <>
+          <li>
+            Designed Flight framework, improving reliability, scalability,
+            adopted by over 80% of organization, servicing 350 million daily
+            requests. ref:{" "}
+            <a href="https://newsroom.stitchfix.com/blog/your-shop-is-getting-an-update-shop-by-category-will-make-it-easier-to-discover-things-youll-love/">
+              [1]
+            </a>
+            <a href="https:jxnl.co/writing/flight-at-stitchfix">[2]</a>
+            <a href="https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/">
+              [3]
+            </a>
+          </li>
+          <li>
+            Developed product similarity search with multi-modal embeddings,
+            boosting revenue by over $50 million annually. ref:{" "}
+            <a href="https://newsroom.stitchfix.com/blog/how-we-understand-your-personal-style/">
+              [1]
+            </a>
+          </li>
+          <li>
+            Led vision research, managed data acquisition, fine-tuned models,
+            developed 300,000+ outfit dataset to power new Stitch Fix outfit
+            recommender.
+          </li>
+          <li>
+            Experimented with OpenAI LLMs into Stitchfix stylist workflow to
+            enhance efficiency and quality.
+          </li>
+        </>
+      ),
     },
     {
       company: "Facebook",
@@ -94,7 +124,8 @@ export const RESUME_DATA = {
       title: "Research Assistant",
       start: "2015",
       end: "2017",
-      description: "Under Rumi Chunara, centered around public health and social media.",
+      description:
+        "Under Rumi Chunara, centered around public health and social media.",
       logo: "", // Path to NYU logo image
     },
   ],
@@ -113,7 +144,8 @@ export const RESUME_DATA = {
     {
       title: "Instructor",
       techStack: ["python", "llms", "structured extraction"],
-      description: "Creator, tool for structured extraction and self-hosting",
+      description:
+        "Structured extraction for LLMS using Pydantic, Over 30k monthly downloads on PyPI.",
       link: {
         label: "Instructor",
         href: "https://jxnl.github.io/instructor/",
@@ -122,7 +154,8 @@ export const RESUME_DATA = {
     {
       title: "Multimodal Search",
       techStack: ["Stitchfix", "pytorch", "representation learning", "search"],
-      description: "Lead computer vision research, and embedding search system using multi-modal embeddings (Image, Text, Ratings).",
+      description:
+        "Lead computer vision research, and embedding search system using multi-modal embeddings powered by image, text, and impression data.",
       link: {
         label: "Stylist Shuffle",
         href: "https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/",
@@ -152,8 +185,9 @@ export const RESUME_DATA = {
   clients: [
     {
       title: "Naro",
-      techStack: ["client work", "python", "prompt engineering", "sales"],
-      description: "Naro sits in the background, using contextual clues to proactively select the right content and messaging for each customer conversation, from emails to meetings.",
+      techStack: ["python", "prompt engineering", "sales"],
+      description:
+        "Naro sits in the background, using contextual clues to proactively select the right content and messaging for each customer conversation, from emails to meetings.",
       link: {
         label: "narohq.com",
         href: "http://narohq.com",
@@ -161,12 +195,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Trunk Tools",
-      techStack: [
-        "client work",
-        "construction",
-        "technical advisor",
-        "retrival",
-      ],
+      techStack: ["construction", "technical advisor", "retrival"],
       description:
         "Trunk Tools addresses the skilled labor shortage in construction, enhancing workforce productivity through AI-based tools.",
       link: {
@@ -176,7 +205,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Modal Labs",
-      techStack: ["client work", "technical writing", "python"],
+      techStack: ["technical writing", "python"],
       description:
         "Modal specializes in cloud functions, offering a platform for running generative AI models, large-scale batch jobs, and more.",
       link: {
@@ -186,7 +215,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Pydantic",
-      techStack: ["client work", "technical writing", "python"],
+      techStack: ["technical writing", "python"],
       description:
         "Pydantic provides data validation and settings management using Python type annotations, enforcing type hints at runtime with user-friendly error handling.",
       link: {
@@ -196,12 +225,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Weight & Biases",
-      techStack: [
-        "client work", 
-        "technical writing",
-        "education",
-        "machine learning",
-      ],
+      techStack: ["technical writing", "education", "machine learning"],
       description:
         "Wandb (Weights & Biases) provides a platform for tracking machine learning experiments, offering tools for visualization, comparison, and collaboration in ML projects.",
       link: {
@@ -210,23 +234,23 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Kay.ai",
-      techStack: ["client work", "retrieval", "evals", "infrastucture", "python"],
-      description:
-        "Retrieve relevant context from the semantic web for your LLM apps with fully hosted embeddings.",
-      link: {
-        label: "Kay.ai",
-        href: "http://Kay.ai",
-      },
-    },
-    {
       title: "New Computer",
-      techStack: ["client work", "personal computing", "python"],
+      techStack: ["personal computing", "python"],
       description:
         "Dot by New Computer is an intelligent guide designed to help you remember, organize, and navigate your life.",
       link: {
         label: "new.computer",
         href: "http://new.computer",
+      },
+    },
+    {
+      title: "Kay.ai",
+      techStack: ["retrieval", "evals", "infrastucture", "python"],
+      description:
+        "Retrieve relevant context from the semantic web for your LLM apps with fully hosted embeddings.",
+      link: {
+        label: "Kay.ai",
+        href: "http://Kay.ai",
       },
     },
   ],
