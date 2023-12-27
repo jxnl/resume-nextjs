@@ -45,7 +45,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "567",
-      link: "https://jxnl.co",
+      link: "https://jxnl.notion.site/jxnl/whats-up-95708748a05d40c398a4abc66a978a8e",
       badges: ["Consulting", "Technical Advisor"],
       title: "Owner / Consultant",
       logo: "", // Add logo if available
