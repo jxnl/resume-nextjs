@@ -46,7 +46,7 @@ export const RESUME_DATA = {
     {
       company: "567",
       link: "https://jxnl.notion.site/jxnl/whats-up-95708748a05d40c398a4abc66a978a8e",
-      badges: ["Consulting", "Technical Advisor"],
+      badges: ["Consulting"],
       title: "Owner / Consultant",
       logo: "", // Add logo if available
       start: "2023",
@@ -68,7 +68,7 @@ export const RESUME_DATA = {
     {
       company: "Stitchfix",
       link: "https://www.stitchfix.com/",
-      badges: ["ML Engineering", "Data Science", "Framework"],
+      badges: ["System"],
       title: "Staff ML Engineer",
       logo: "", // Add logo if available
       start: "2018",
@@ -95,7 +95,7 @@ export const RESUME_DATA = {
     {
       company: "Facebook",
       link: "https://about.meta.com/actions/promoting-safety-and-expression/",
-      badges: ["Data Science", "Internship"],
+      badges: ["Data Science"],
       title: "Data Scientist",
       logo: "",
       start: "2017",
