@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   summary:
     "I am currently on sabbatical at South Park Commons, where I consult and advise fast growing startups on applied ai and tech strategy.",
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
-  personalWebsiteUrl: "https://jxnl.notion.site/jxnl/whats-up-95708748a05d40c398a4abc66a978a8e",
+  personalWebsiteUrl: "https://jxnl.github.io/blog/",
   contact: {
     email: "jason@jxnl.co",
     tel: "4156106247",
@@ -45,7 +45,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "567",
-      link: "https://jxnl.notion.site/jxnl/whats-up-95708748a05d40c398a4abc66a978a8e",
+      link: "https://jxnl.github.io/blog/",
       badges: ["Consulting"],
       title: "Owner / Consultant",
       logo: "", // Add logo if available
@@ -154,7 +154,7 @@ export const RESUME_DATA = {
         "Designed and implemented Flight, a recommendation framework that improved system reliability and scalability, handling over 350 million daily requests.",
       link: {
         label: "Learn more about Flight at Stitchfix",
-        href: "https://jxnl.notion.site/Recommendations-with-Flight-at-Stitch-Fix-bf5de4e932b34af1ad912294236d81ba",
+        href: "https://jxnl.github.io/blog/writing/2022/08/01/stitchfix-framework/",
       },
     },
     {
