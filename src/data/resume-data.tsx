@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
@@ -8,9 +9,12 @@ export const RESUME_DATA = {
   location: "New York",
   locationLink: "https://www.google.com/maps/place/New+York",
   about:
-    "Cycling my time between artist and tinkerer. Currently I’m obsessed with finding the right abstractions and patterns to work with large language models.",
+    "I am currently on sabbatical at South Park Commons, where I consult and advise fast growing startups on applied AI and tech strategy.",
   summary:
-    "I am currently on sabbatical at South Park Commons, where I consult and advise fast growing startups on applied ai and tech strategy.",
+    <>
+      Check out my {" "}
+      <Link className="underline" href="https://jxnl.github.io/blog/">blog</Link>, if you're looking for my writings.  
+    </>,
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
   personalWebsiteUrl: "https://jxnl.notion.site/jxnl/whats-up-95708748a05d40c398a4abc66a978a8e",
   contact: {
