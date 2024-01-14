@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   summary:
     <>
       Check out my {" "}
-      <Link className="underline" href="https://jxnl.github.io/blog/">blog</Link>, if you're looking for my writings.  
+      <Link className="underline" href="https://jxnl.github.io/blog/">blog</Link>, if you are looking for my writing.  
     </>,
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
   personalWebsiteUrl: "https://jxnl.github.io/blog/",
