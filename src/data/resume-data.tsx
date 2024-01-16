@@ -19,7 +19,6 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://jxnl.github.io/blog/",
   contact: {
     email: "jason@jxnl.co",
-    tel: "4156106247",
     social: [
       {
         name: "GitHub",
