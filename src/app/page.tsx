@@ -9,7 +9,7 @@ import { Button } from "../components/ui/button";
 import { RESUME_DATA } from "../data/resume-data";
 import { ProjectCard } from "../components/project-card";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
 };
