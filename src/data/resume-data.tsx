@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/4852235?v=4",
   personalWebsiteUrl: "https://jxnl.github.io/blog/",
   contact: {
-    email: "jason@jxnl.co",
+    email: "",
     social: [
       {
         name: "GitHub",
